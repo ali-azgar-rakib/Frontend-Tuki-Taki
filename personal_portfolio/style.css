@@ -10,10 +10,9 @@ body {
 /* utility class  */
 
 .container {
-  font-family: "Roboto", sans-serif;
   padding: 50px;
   margin: auto;
-  height: 500px;
+  height: 550px;
 }
 
 .half-width {
@@ -43,6 +42,7 @@ body {
 p {
   color: #003300;
   text-align: justify;
+  line-height: 150%;
 }
 
 /* header section  */
@@ -54,4 +54,88 @@ p {
 }
 .header-section h1 {
   color: tomato;
+}
+
+/* biography section  */
+
+.biography-section {
+  background-image: url("./images/biography-bg.png");
+  background-size: 100% 100%;
+}
+
+.para-group {
+  height: 380px;
+  width: 100%;
+  padding-right: 2%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  margin-bottom: 16px;
+}
+
+/* my latest work  */
+.my-latest-work {
+  margin-top: 25px;
+  background-image: url("./images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-latest-work h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.latest-work-container {
+  width: 100%;
+}
+.quarter-width {
+  width: 30%;
+  float: left;
+  margin: 0 1.5%;
+}
+
+.quarter-width img {
+  width: 100%;
+}
+.footer-section {
+  height: 450px;
+}
+.footer-section h2 {
+  text-align: center;
+}
+
+.footer-container {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-container h4 {
+  margin-bottom: -20px;
+}
+.footer-container h6 {
+  color: gray;
+}
+
+.contact {
+  background-color: lightcoral;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.contact p {
+  text-align: center;
+  color: white;
+}
+
+.bg-txt {
+  font-size: 20px;
+}
+.sm-txt {
+  font-size: 12px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 112px;
+  color: gray;
 }
