@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility class  */
+
+.container {
+  padding: 50px;
+  margin: auto;
+  height: 550px;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 4%;
+  padding: 3%;
+  float: left;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.link-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.link-btn:hover {
+  box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.418);
+}
+
+p {
+  color: #003300;
+  text-align: justify;
+  line-height: 150%;
+}
+
+/* header section  */
+
+.header-section {
+  background-image: url("./images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-section h1 {
+  color: tomato;
+}
+
+/* biography section  */
+
+.biography-section {
+  background-image: url("./images/biography-bg.png");
+  background-size: 100% 100%;
+}
+
+.para-group {
+  height: 380px;
+  width: 100%;
+  padding-right: 2%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  margin-bottom: 16px;
+}
+
+/* my latest work  */
+.my-latest-work {
+  margin-top: 25px;
+  background-image: url("./images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-latest-work h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.latest-work-container {
+  width: 100%;
+}
+.quarter-width {
+  width: 30%;
+  float: left;
+  margin: 0 1.5%;
+}
+
+.quarter-width img {
+  width: 100%;
+}
+.footer-section {
+  height: 450px;
+}
+.footer-section h2 {
+  text-align: center;
+}
+
+.footer-container {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-container h4 {
+  margin-bottom: -20px;
+}
+.footer-container h6 {
+  color: gray;
+}
+
+.contact {
+  background-color: lightcoral;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.contact p {
+  text-align: center;
+  color: white;
+}
+
+.bg-txt {
+  font-size: 20px;
+}
+.sm-txt {
+  font-size: 12px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 112px;
+  color: gray;
+}
