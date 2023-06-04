@@ -9,3 +9,8 @@ h1 {
 .title-highlight {
   color: orange;
 }
+
+.half-width {
+  width: 40%;
+  float: left;
+}
