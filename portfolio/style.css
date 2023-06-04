@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+
+.title-highlight {
+  color: orange;
+}
+
+section {
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 100%;
+}
+.top-banner {
+  background-image: url("./images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.link-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(45deg, salmon, tomato);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.dream-banner {
+  background-image: url("./images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.experience-area {
+  background-image: url("./images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90px;
+}
+
+.experience-area > h2 {
+  text-align: center;
+  position: relative;
+}
+
+.experience-area > h2::after {
+  content: " ";
+  width: 137px;
+  height: 3px;
+  background-image: linear-gradient(lightSalmon, tomato);
+  display: block;
+  position: absolute;
+  top: 103%;
+  left: 45%;
+}
+.card {
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.274);
+  border-radius: 10px;
+  height: 70%;
+}
+
+#ajiara-card {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#another-card {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
+}
