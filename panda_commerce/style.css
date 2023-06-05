@@ -1,0 +1,39 @@
+.orange-bg {
+  background-color: #fceae8;
+}
+
+.carousel-item {
+  padding: 2rem 3rem;
+}
+
+.price {
+  color: #ff136f;
+}
+
+.buy-btn {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.cat-1 {
+  /* background-color: orange; */
+  background-image: linear-gradient(to right, orange, rgba(255, 166, 0, 0.822));
+}
+
+.cat-2 {
+  background-color: coral;
+}
+.cat-3 {
+  background-color: blue;
+  background-image: linear-gradient(130deg, blue, rgb(150, 150, 247));
+}
+
+.cat-img {
+  width: 6rem;
+}
+.subscribe {
+  height: 20rem;
+}
