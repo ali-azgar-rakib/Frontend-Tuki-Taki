@@ -7,4 +7,31 @@
   font-weight: 900;
 }
 
+.text-orange {
+  color: orange;
+}
 
+.see-more-link {
+  text-decoration: none;
+}
+
+.cat-box {
+  width: 10.5rem;
+  height: 12rem;
+}
+
+.categories h2::after {
+  content: " ";
+  width: 10rem;
+  height: 0.3rem;
+  background-color: aqua;
+  display: block;
+  top: 0.3rem;
+  left: 30rem;
+  position: relative;
+}
+
+footer {
+  height: 15rem;
+  background-color: #f8f9fa;
+}
